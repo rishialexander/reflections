@@ -24,3 +24,22 @@ project on Github but you don't have permission to change their repository. A
 branch is a different version within a repository. You would use this if you are
 making changes to a project that are experimental and not ready to be pushed to
 the master branch.
+
+
+4--- What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+You can get a copy of the most updated version of the remote without having to
+merge it into your local copy. This can serve as a useful reference if you are
+offline for a while.
+
+
+5--- How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+Collaborating without using Git or Github would involve manually sharing files
+with all of the collaborators. It would be easier in some respects as you wouldn't
+have to worry about committing or having a mental model of the current state of
+the repository in your brain (with all of the pushes, pulls and merges). However,
+it would be much harder if the project had more than a couple files or a couple
+collaborators since you wouldn't have any software to help you track changes.
